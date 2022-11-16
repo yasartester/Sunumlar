@@ -1,0 +1,24 @@
+package ders06_ifElseStatement;
+
+import java.util.Scanner;
+
+class C07_ifElseStatementKalsin {
+    public static void main(String[] args) {
+
+        /* soru 5 kullanicidan bir harf isteyin,
+        girilen karakter kucuk harf ise
+        onu buyuk harf olarak yazdirin
+         */
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Lutfen bir harf giriniz");
+        char krktr= scan.next().charAt(0);
+        if (krktr>='a' && krktr<='z'){ // kucuk harf girildi demektir
+            System.out.println("girilen harf : "+(char) (krktr-32) );
+        } else if (krktr<'a'& krktr>=65){ // buyuk harf girildi demektir.
+            System.out.println("girilen harf : "+(char) (krktr));}
+        else System.out.println("harf girmediniz");
+
+        }
+
+
+    }

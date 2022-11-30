@@ -12,6 +12,7 @@ package ders20_multiDimensionalArrays;
 
              // tum array'i yazdirmak istersek
         System.out.println(Arrays.deepToString(arr)); // [[4, 3, 1], [1, 2], [5, 6, 7], [], [3, 6, 8, 0]]
-        // System.out.println(arr[3][0]); // ArrayIndexOutOfBoundsException
+             System.out.println("arr[4]'un 2. index'indeki deger : "+ arr[4][2]);
+             System.out.println(arr[3][0]); // ArrayIndexOutOfBoundsException
     }
 }

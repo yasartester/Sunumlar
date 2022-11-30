@@ -10,6 +10,7 @@ public class C07_EnKisa_EnUzunKelime {
         enUzunEnKisaIsimleriYazdir(arr);
     }
 
+
         public static void  enUzunEnKisaIsimleriYazdir(String[] arr){
 
             String enuzunKelime=arr[0];

@@ -27,4 +27,5 @@ public class C05_ArraydeElemanArama {
     }else {
         System.out.println("Aranan "+ arananEleman + " sayisi array'de "+ sayac+ " kez kullanilmistir");
 
-    }}}
+    }}
+}
